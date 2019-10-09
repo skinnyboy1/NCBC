@@ -26,7 +26,22 @@
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   
   
-
+<meta name="theme-color" content="#0505aa">
+<link rel="manifest" href="manifest.json">
+<meta name="amp-script-src" content="sha384-wmk4FRUNR-lbJmTGSVm1k9I9BmtIWhnq_vJffRUNwlmHdjzyJHeuzGT8fv9IXGAj">
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-640x1136.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-750x1334.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1242x2208.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1536x2048.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
+<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="New Creature Baptist Church">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body><amp-sidebar id="sidebar" class="cid-rjaj34yQrJ" layout="nodisplay" side="right">
 		<div placeholder="" class="placeholder">
@@ -43,8 +58,8 @@
 		
 				
 				<!-- NAVBAR ITEMS -->
-				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-5" href="https://newcreaturebaptistchurch.org/" aria-expanded="false">HOME</a></li><li class="nav-item dropdown open">
-						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="true">ABOUT</a>
+				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-5" href="https://newcreaturebaptistchurch.org/" aria-expanded="false">HOME</a></li><li class="nav-item dropdown">
+						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="false">ABOUT</a>
 						<div class="dropdown-menu">
 							
 							<a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/about.html" aria-expanded="false">OUR HISTORY</a><a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/kids&amp;youth">CHILDREN</a>
@@ -55,12 +70,12 @@
 						<a class="nav-link link text-black display-5" href="https://newcreaturebaptistchurch.org/private/calendar/" aria-expanded="false">EVENTS</a> 
 					</li>
 					
-					<li class="nav-item dropdown">
-						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="false">Members</a>  
+					<li class="nav-item dropdown open">
+						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="true">Members</a>  
 						<div class="dropdown-menu">
 							
 							
-							 <a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/members">Members</a><a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/membership-agreement">Becoming a Member</a>
+							 <a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/private/login">LOGIN</a><a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/membership-agreement">MEMBERSHIP ROLES</a>
 						</div>
 					</li>
 					
@@ -73,7 +88,12 @@
 				
 				<!-- SHOW BUTTON END -->
 			</div>
-	</amp-sidebar>
+	</amp-sidebar><amp-install-serviceworker src="sw.js" layout="nodisplay"></amp-install-serviceworker>
+<amp-script class="fixed-element" style="z-index:100000000;" src="https://s3.amazonaws.com/r.mobirisesite.com/public-amp-script/ios-pwa-amp-script.js" layout="container">
+<div class="sticker" style="display: block;overflow:auto;margin-bottom: 20px;z-index:1000000;padding: 5px 7px;margin-left: 2%;width: 96%;border-radius: 3px;background-color: #f1f1f1;font-size: 14px;font-family: sans-serif;text-align: center;">
+<span>Install this webapp on your device: tap <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 50 50" height="15px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="15px" xml:space="preserve"><polyline fill="none" points="17,10 25,2 33,10   " stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"></polyline><line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="25" x2="25" y1="32" y2="2.333"></line><rect fill="none" height="50" width="50"></rect><path d="M17,17H8v32h34V17h-9" fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"></path></svg></span> and then Add to homescreen.</span>
+</div>
+</amp-script>
 
 <!-- Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -114,8 +134,8 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				
 				<!-- NAVBAR ITEMS -->
-				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-5" href="https://newcreaturebaptistchurch.org/" aria-expanded="false">HOME</a></li><li class="nav-item dropdown open">
-						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="true">ABOUT</a>
+				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-5" href="https://newcreaturebaptistchurch.org/" aria-expanded="false">HOME</a></li><li class="nav-item dropdown">
+						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="false">ABOUT</a>
 						<div class="dropdown-menu">
 							
 							<a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/about.html" aria-expanded="false">OUR HISTORY</a><a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/kids&amp;youth">CHILDREN</a>
@@ -126,12 +146,12 @@
 						<a class="nav-link link text-black display-5" href="https://newcreaturebaptistchurch.org/private/calendar/" aria-expanded="false">EVENTS</a> 
 					</li>
 					
-					<li class="nav-item dropdown">
-						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="false">Members</a>  
+					<li class="nav-item dropdown open">
+						<a class="nav-link link text-black dropdown-toggle display-5" data-toggle="dropdown-submenu" aria-expanded="true">Members</a>  
 						<div class="dropdown-menu">
 							
 							
-							 <a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/members">Members</a><a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/membership-agreement">Becoming a Member</a>
+							 <a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/private/login">LOGIN</a><a class="text-black dropdown-item display-5" href="https://newcreaturebaptistchurch.org/membership-agreement">MEMBERSHIP ROLES</a>
 						</div>
 					</li>
 					
@@ -209,7 +229,7 @@
             <div class="card mbr-col-sm-12 mbr-col-lg-4 mbr-col-lg-12 mbr-col-lg-6 last-child">
                 <div class="card-wrapper mbr-flex mbr-row-reverse">
                     <div class="card-img mbr-flex mbr-col-md-12 mbr-col-lg-6">
-                        <amp-img src="assets/images/background1310.png" layout="responsive" width="553.7313432835821" height="371" alt="image" class="placeholder-loader mobirise-loader">
+                        <amp-img src="assets/images/background1318.png" layout="responsive" width="553.7313432835821" height="371" alt="image" class="placeholder-loader mobirise-loader">
                             <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -246,7 +266,7 @@
             <div class="card mbr-col-sm-12 mbr-col-lg-4 mbr-col-lg-12 mbr-col-lg-6 last-child">
                 <div class="card-wrapper mbr-flex mbr-row-reverse">
                     <div class="card-img mbr-flex mbr-col-md-12 mbr-col-lg-6">
-                        <amp-img src="assets/images/background1310.png" layout="responsive" width="553.7313432835821" height="371" alt="image" class="placeholder-loader mobirise-loader">
+                        <amp-img src="assets/images/background1318.png" layout="responsive" width="553.7313432835821" height="371" alt="image" class="placeholder-loader mobirise-loader">
                             <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
@@ -283,7 +303,7 @@
             <div class="card mbr-col-sm-12 mbr-col-lg-4 mbr-col-lg-12 mbr-col-lg-6 last-child">
                 <div class="card-wrapper mbr-flex mbr-row-reverse">
                     <div class="card-img mbr-flex mbr-col-md-12 mbr-col-lg-6">
-                        <amp-img src="assets/images/background1310.png" layout="responsive" width="553.7313432835821" height="371" alt="image" class="placeholder-loader mobirise-loader">
+                        <amp-img src="assets/images/background1318.png" layout="responsive" width="553.7313432835821" height="371" alt="image" class="placeholder-loader mobirise-loader">
                             <div placeholder="" class="placeholder">
                                 <div class="mobirise-spinner">
                                     <em></em>
