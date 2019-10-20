@@ -25,6 +25,8 @@
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   
   
+  <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+  
 <meta name="theme-color" content="#0505aa">
 <link rel="manifest" href="manifest.json">
 <meta name="amp-script-src" content="sha384-wmk4FRUNR-lbJmTGSVm1k9I9BmtIWhnq_vJffRUNwlmHdjzyJHeuzGT8fv9IXGAj">
@@ -40,8 +42,7 @@
 <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="New Creature Baptist Church">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-</head>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body><amp-install-serviceworker src="sw.js" layout="nodisplay"></amp-install-serviceworker>
 <amp-script class="fixed-element" style="z-index:100000000;" src="https://s3.amazonaws.com/r.mobirisesite.com/public-amp-script/ios-pwa-amp-script.js" layout="container">
 <div class="sticker" style="display: block;overflow:auto;margin-bottom: 20px;z-index:1000000;padding: 5px 7px;margin-left: 2%;width: 96%;border-radius: 3px;background-color: #f1f1f1;font-size: 14px;font-family: sans-serif;text-align: center;">
@@ -97,6 +98,7 @@
 
   
   
-
+<amp-user-notification id="my-notification" style=" color: #424a4d;  background: rgba(234, 239, 241, 0.99); padding: 10px 5%; display:inline-block; text-align: center;" layout="nodisplay" class="cookieText">We use cookies to give you the best experience. Read our <a style="color: #424a4d; text-decoration: underline;" href="privacy.html">cookie policy</a>.<button on="tap:my-notification.dismiss" style="background-color: #ffffff; margin-left: 10px; cursor: pointer; border-radius: 4px">x</button>                            </amp-user-notification>
+ 
 </body>
 </html>
